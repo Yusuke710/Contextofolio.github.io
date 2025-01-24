@@ -25,6 +25,16 @@ projectsSection:
   mainHeading: Projects
   subHeading: Explore my work and contributions
 projects:
+  - sectionID: project_7
+    sectionClass: project-bg-1
+    imgSrc: ./assets/png/rag_overview.png
+    imgAlt: Algorithm Screenshot
+    title: "LLM as HPC Expert: Extending RAG Architecture for HPC Data"
+    description: >
+      Our system integrates Hypothetical Command Embeddings (HyCE) into RAG, retrieving command descriptions, executing them, and embedding outputs into the LLM’s context. This hybrid approach delivers precise, HPC-specific answers efficiently.
+    link: 
+      text: Project Page
+      href: https://yusuke710.github.io/hyce.github.io/
   - sectionID: project_6
     sectionClass: project-bg-2
     imgSrc: ./assets/png/nanoPerplexityAI.png
