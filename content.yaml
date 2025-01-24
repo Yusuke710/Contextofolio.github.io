@@ -31,7 +31,7 @@ projects:
     imgAlt: Algorithm Screenshot
     title: "LLM as HPC Expert: Extending RAG Architecture for HPC Data"
     description: >
-      Our system integrates Hypothetical Command Embeddings (HyCE) into RAG, retrieving command descriptions, executing them, and embedding outputs into the LLM’s context. This hybrid approach delivers precise, HPC-specific answers efficiently.
+      Our system integrates Hypothetical Command Embeddings (HyCE) into RAG. This approach retrieves command descriptions based on user queries, executes the appropriate commands, and integrates the resulting output into the LLM’s context. This delivers precise, HPC-specific answers efficiently.
     link: 
       text: Project Page
       href: https://yusuke710.github.io/hyce.github.io/
