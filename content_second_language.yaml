@@ -6,9 +6,8 @@ header:
     - text: Home
       href: "./index.html"
     - text: Publications
-      href: "./publications.html"
-    - text: CV
-      href: "https://drive.google.com/file/d/1YLgc158RRfhHepU1uNh0MfeQn3zOH-t6/view?usp=sharing"
+      href: "https://scholar.google.com.au/citations?user=mj9LnI8AAAAJ&hl=en"
+      target: "_blank"
     - text: English
       href: "./index.html"
 
@@ -16,7 +15,7 @@ about:
   mainHeading: 宮下佑甫
   subHeading: 言語、ロボット、シミュレーション分野でAIの研究をしてます!!
   content: >
-    オーストラリアのモナシュ大学で工学と経済学を勉強し、AIを言語、ロボット、シミュレーションに活用することを探求しています。これまで、オーストラリア連邦科学産業研究機構（CSIRO）、モナシュ大学、日本のスタートアップ企業DeepFlowで研究論文を発表し、オープンソースアプリケーションを開発しました。
+    AI研究者とエンジニア。オーストラリアのモナシュ大学で工学と経済学を勉強し、AIを言語、ロボット、シミュレーションに活用することを探求しています。時折研究論文を発表し、オープンソースアプリケーションの開発にも携わっています。
   image:
     src: "./assets/jpeg/yusuke.jpg"
     alt: "Yusuke Miyashita"
@@ -31,7 +30,7 @@ projects:
     imgAlt: Algorithm Screenshot
     title: "LLMをHPC専門家にする: HPCデータのためのRAGアーキテクチャの拡張"
     description: >
-      私たちのシステムは、RAGにHypothetical Command Embeddings（HyCE）を統合し拡張しました。具体的には、コマンドの説明を埋め込み、RAGが取得したコマンドを実行し、その出力をLLMのコンテキストに含めます。このアプローチにより、HPC環境固有のクエリに対して正確な回答を提供します。
+      RAGをHypothetical Command Embeddings（HyCE）で拡張しました。具体的には、コマンドの説明を埋め込み、RAGが取得したコマンドを実行し、その出力をLLMのコンテキストに含めます。このアプローチにより、HPC環境固有のクエリに対して正確な回答を提供します。
     link: 
       text: Project Page
       href: https://yusuke710.github.io/hyce.github.io/
@@ -103,7 +102,7 @@ quiz:
   play_contextofolio: False
 
 footer:
-  description: "youfu1202mo@gmail.com" 
+  description: "" 
   portofolio_link: "Check out the  Github project to build your own Portofolio!"
   socialLinks:
     - href: "https://www.linkedin.com/in/yusuke-miyashita-79a3771a5/"

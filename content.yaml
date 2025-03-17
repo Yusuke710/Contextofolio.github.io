@@ -6,9 +6,8 @@ header:
     - text: Home
       href: "./index.html"
     - text: Publications
-      href: "./publications.html"
-    - text: CV
-      href: "https://drive.google.com/file/d/1YLgc158RRfhHepU1uNh0MfeQn3zOH-t6/view?usp=sharing"
+      href: "https://scholar.google.com.au/citations?user=mj9LnI8AAAAJ&hl=en"
+      target: "_blank"
     - text: 日本語
       href: "./index.html"
 
@@ -16,7 +15,7 @@ about:
   mainHeading: Yusuke Miyashita
   subHeading: I explore AI through research in language, robotics, and simulation!!
   content: >
-    I graduated from Monash University with a Bachelor's degree in Engineering and Economics and I have been exploring the applications of AI in different fields such as language, robots and simulation. In my previous roles at the Commonwealth Scientific and Industrial Research Organisation (CSIRO), Monash University, and the Japanese startup company DeepFlow, I published research papers and developed open-source applications. 
+    I am an AI Researcher and Engineer passionate about innovation. I graduated from Monash University with a Bachelor's degree in Engineering and Economics and I have been exploring the applications of AI in different fields such as language, robots and simulation. I occasionally publish research papers and develop open-source applications. 
   image:
     src: "./assets/jpeg/yusuke.jpg"
     alt: "Yusuke Miyashita"
@@ -103,7 +102,7 @@ quiz:
   play_contextofolio: True
 
 footer:
-  description: "youfu1202mo@gmail.com" 
+  description: "" 
   portofolio_link: "Check out the  Github project to build your own Portofolio!"
   socialLinks:
     - href: "https://www.linkedin.com/in/yusuke-miyashita-79a3771a5/"
