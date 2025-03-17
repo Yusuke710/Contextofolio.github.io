@@ -18,7 +18,14 @@ async function loadContent(language = 'en') {
     content.header.links.forEach(link => {
       const li = document.createElement('li');
       li.classList.add('header__link-wrapper');
-      li.innerHTML = `<a href="${link.href}" class="header__link" ${link.text === 'CV' ? 'target="_blank"' : ''}>${link.text}</a>`;
+      const a = document.createElement('a');
+      a.classList.add('header__link');
+      a.href = link.href;
+      a.textContent = link.text;
+      if (link.target) {
+        a.target = link.target;
+      }
+      li.appendChild(a);
       headerLinks.appendChild(li);
 
       // Add event listeners for language switching
@@ -40,7 +47,13 @@ async function loadContent(language = 'en') {
     content.header.links.forEach(link => {
       const li = document.createElement('li');
       li.classList.add('header__sm-menu-link');
-      li.innerHTML = `<a href="${link.href}" ${link.text === 'CV' ? 'target="_blank"' : ''}>${link.text}</a>`;
+      const a = document.createElement('a');
+      a.href = link.href;
+      a.textContent = link.text;
+      if (link.target) {
+        a.target = link.target;
+      }
+      li.appendChild(a);
       sm_menu_links.appendChild(li);
 
       // Add event listeners for language switching
